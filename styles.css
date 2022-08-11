@@ -1,0 +1,258 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  header {
+	position: absolute;
+	z-index: 99999;
+	width: 100%;
+	height: 100px;
+	background-color: #f7f7f7;
+
+}
+.navbar .logo {
+	float: 	left;
+	margin-top: -12px;
+	outline: none;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar .container{
+	text-align: right;
+	padding-right: 50px;
+}
+.navbar .navbar-item .navbar-link{
+	text-decoration: none;
+	color: black;
+	width: 100px;
+	display: block;
+	padding: 25px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: small;
+	text-align: center;
+
+}
+
+.navbar .navbar-link:hover{
+    color:#f48840;
+}
+.navbar .navbar-link:active{
+    color:#f48840;
+}
+
+
+.navbar .logo h2 {
+	color: #1e1e1e;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 900;
+	padding-left: 50px;
+
+}
+.navbar .logo h2 em {
+	font-size: 30px;
+	font-style: normal;
+	color: #f48840;
+}
+
+
+
+
+
+.header-container{
+	padding-top: 110px;
+	display: flex;
+	padding: 10px;
+	margin-right: 10px;
+	justify-content: center;
+	margin: 10px;
+}
+.header-container .images{
+	position:relative;
+	margin: 10px;
+
+}
+.header-container .images .category{
+	
+		color: #f48840;
+		font-size: 18px;
+		text-transform: uppercase;
+		font-weight: 900;
+		letter-spacing: 0.25px;
+	
+}
+.header-container .images li{
+	display: inline;
+
+}
+
+.header-container .images li::after{
+	content: '|';
+	color: #fff;
+	margin-left: 8px;
+}
+.header-container .images h4{
+	font-size: 24px;
+	color: #fff;
+	letter-spacing: 0.5px;
+	text-transform: capitalize;
+	margin: 10px 0px 12px 0px;
+}
+.header-container .images .item{
+	position: absolute;
+	bottom: 40px;
+	left: 40px;
+}
+
+
+/*banner wla maarf*/
+.blackbox {
+	margin-top: 100px;
+	
+}
+.blackbox .container{
+	position: relative;
+	width: 1050px;
+	margin: 0 auto;
+}
+
+.blackbox .texts {
+	padding: 40px;
+	margin-bottom: 0;
+	text-align: left;
+	background-color: #1e1e1e;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.blackbox .texts span {
+	color: #f48840;
+	font-size: 18px;
+	font-weight: 900;
+	letter-spacing: 0.5px;
+}
+
+.blackbox .texts h4 {
+	margin-bottom: 0px;
+	margin-top: 12px;
+	color: #fff;
+	font-size: 26px;
+	font-weight: 900;
+	letter-spacing: 0.25px;
+}
+
+.blackbox .texts .button {
+position: absolute;
+top :20%;
+left: 80%;
+	text-align: center;
+	background-color: #f48840;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	float: right;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 31px 0 25px 0;  
+}
+
+.mainpage {
+	padding-top: 20px;
+}
+.mainpage .blog{
+		float: left;
+		width: 70%;
+		position: relative;
+	left :20%;
+	  
+}
+.mainpage .blog .img{
+	margin-bottom: 20px;
+
+}
+.mainpage .blog .category{
+
+	color: #f48840;
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 0.25px;
+}
+.mainpage .blog .content h4{
+	font-size: 24px;
+	color: #1e1e1e;
+	letter-spacing: 0.5px;
+	text-transform: capitalize;
+	margin: 10px 0px 12px 0px;
+}
+.mainpage .blog .content li{
+	display: inline;
+	margin-right: 8px;
+}
+.mainpage .blog .content li::after{
+	content: '|';
+	color: #1e1e1e;
+	margin-left: 8px;
+}
+.mainpage .blog .content .blogtext p{
+	padding: 25px 0px;
+	margin: 25px 0px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	width:55%;
+}
+.mainpage .sidebar .sidebar-title{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 1000;
+	letter-spacing: 1px;
+	color: #1e1e1e;
+	border-bottom: 1px solid #eee;
+}
+.mainpage .sidebar .sidemenu li{
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	list-style: none;
+}
+ h5{
+	font-size: 16px;
+	font-weight: bolder;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	list-style: none;
+	border-bottom: 1px solid #eee;
+}
+footer{
+	padding: 100px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #1e1e1e;
+	color: white;
+	text-align: center;
+	}
+	footer .socials{
+		position: relative;
+		top :10px;
+		border-bottom: 1px solid #eee;
+		margin-bottom: 15px;
+	}
+	footer .socials li{
+		display: inline;
+		text-align: center;
+		margin: 15px;
+
+	}
+	footer .socials li::after{
+	content: '|';
+	color: #fff;
+	margin-left: 8px;
+	margin-right: 8px;
+	
